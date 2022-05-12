@@ -6,13 +6,12 @@ from streamlit_pandas_profiling import st_profile_report
 from PIL import Image
 
 st.set_page_config(page_title='MyHeritage - Data Profiling App', layout= "wide")
-image = Image.open('download.png')
+image = Image.open('./static/mh-logo.png')
 # Web App Title
 
 st.image(image)
 st.markdown('''
 # **Content Publication Team EDA App**
-
 ''')
 
 # Upload CSV data
